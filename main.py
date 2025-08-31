@@ -8,6 +8,18 @@ import math, time, csv, yaml, sys, logging
 from logging.handlers import RotatingFileHandler
 
 # ----------------------------
+# Load configuration
+# ----------------------------
+try:
+    with open("config.yaml", "r") as f:
+        config = yaml.safe_load(f)
+except Exception as e:
+    print(f"Could not load config.yaml: {e}")
+    sys.exit(1)
+
+SCRAPE_INTERVAL = config.get("update_time") * 60
+
+# ----------------------------
 # Logging Configuration
 # ----------------------------
 log_formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
@@ -23,14 +35,13 @@ logging.basicConfig(level=logging.DEBUG, handlers=[file_handler])
 logger = logging.getLogger("Scraper")
 # ----------------------------
 
-try:
-    driver = webdriver.Chrome()
-    driver.get("https://defillama.com/chains")
-except WebDriverException as e:
-    logger.error(f"Browser error: {e}")
-    sys.exit(1)
-
 def run_scraping():
+    try:
+        driver = webdriver.Chrome()
+        driver.get("https://defillama.com/chains")
+    except WebDriverException as e:
+        logger.error(f"Browser error: {e}")
+        sys.exit(1)
 
     try:
         document_height = driver.execute_script("return document.body.scrollHeight")
@@ -95,7 +106,6 @@ def run_scraping():
                     continue
 
 
-
     except Exception as e:
         logger.error(f"Unexpected error while scraping: {e}")
     finally:
@@ -108,4 +118,13 @@ def run_scraping():
 
     logger.info(f"Scraped {len(data)} rows. Data saved to chains_data.csv")
 
-run_scraping()
+
+# ----------------------------
+# Main Loop
+# ----------------------------
+if __name__ == "__main__":
+    logger.info(f"Scraper started.")
+    while True:
+        run_scraping()
+        logger.info(f"Waiting {SCRAPE_INTERVAL/60} minutes until next scrape...")
+        time.sleep(SCRAPE_INTERVAL)

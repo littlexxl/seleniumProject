@@ -1,2 +1,2 @@
-# Auto update time in seconds
-update_time: 300
+# Auto update time in minutes
+update_time: 1

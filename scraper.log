@@ -2,3 +2,64 @@
 2025-09-01 00:44:45,727 [INFO] Scraped 413 rows. Data saved to chains_data.csv
 2025-09-01 00:46:07,532 [INFO] Scraped 15 rows. Data saved to chains_data.csv
 2025-09-01 00:47:29,896 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 00:56:06,898 [INFO] Scraper started. Interval: 5.0 minutes
+2025-09-01 00:56:06,913 [ERROR] Could not get page height: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff647bd3d85+79397]
+	GetHandleVerifier [0x0x7ff647bd3de0+79488]
+	(No symbol) [0x0x7ff64797c0fa]
+	(No symbol) [0x0x7ff647954601]
+	(No symbol) [0x0x7ff647a0257e]
+	(No symbol) [0x0x7ff647a22c72]
+	(No symbol) [0x0x7ff6479faf73]
+	(No symbol) [0x0x7ff6479c41b1]
+	(No symbol) [0x0x7ff6479c4f43]
+	GetHandleVerifier [0x0x7ff647e9e1ed+3005069]
+	GetHandleVerifier [0x0x7ff647e9831d+2980797]
+	GetHandleVerifier [0x0x7ff647eb7e0d+3110573]
+	GetHandleVerifier [0x0x7ff647bed6de+184190]
+	GetHandleVerifier [0x0x7ff647bf516f+215567]
+	GetHandleVerifier [0x0x7ff647bdc974+115220]
+	GetHandleVerifier [0x0x7ff647bdcb29+115657]
+	GetHandleVerifier [0x0x7ff647bc3268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 00:59:17,439 [INFO] Scraper started.
+2025-09-01 01:00:25,271 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 01:00:25,271 [INFO] Waiting 5.0 minutes until next scrape...
+2025-09-01 01:02:02,972 [INFO] Scraper started.
+2025-09-01 01:03:12,589 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 01:03:12,589 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 01:06:38,260 [INFO] Scraper started.
+2025-09-01 01:07:38,704 [INFO] Scraped 285 rows. Data saved to chains_data.csv
+2025-09-01 01:07:38,705 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 01:07:45,782 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2B555090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/61d9be20ddd23a286fc329cd0ca9c26b/execute/sync
+2025-09-01 01:07:49,878 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2B555590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/61d9be20ddd23a286fc329cd0ca9c26b/execute/sync
+2025-09-01 01:07:53,975 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2B5095B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/61d9be20ddd23a286fc329cd0ca9c26b/execute/sync
+2025-09-01 01:07:58,074 [ERROR] Could not get page height: HTTPConnectionPool(host='localhost', port=55795): Max retries exceeded with url: /session/61d9be20ddd23a286fc329cd0ca9c26b/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2B509BA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-01 01:08:02,168 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2B483890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/61d9be20ddd23a286fc329cd0ca9c26b
+2025-09-01 01:08:06,281 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2B52D480>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/61d9be20ddd23a286fc329cd0ca9c26b
+2025-09-01 01:08:10,378 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA2B52D8C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/61d9be20ddd23a286fc329cd0ca9c26b
+2025-09-01 01:08:30,410 [INFO] Scraper started.
+2025-09-01 01:09:32,700 [INFO] Scraped 286 rows. Data saved to chains_data.csv
+2025-09-01 01:09:32,701 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 01:09:39,781 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271A9155090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25cd3bd76a9e4fca0553621ceac8ffa0/execute/sync
+2025-09-01 01:09:43,875 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271A9155590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25cd3bd76a9e4fca0553621ceac8ffa0/execute/sync
+2025-09-01 01:09:47,953 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271A91095B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25cd3bd76a9e4fca0553621ceac8ffa0/execute/sync
+2025-09-01 01:09:52,046 [ERROR] Could not get page height: HTTPConnectionPool(host='localhost', port=55865): Max retries exceeded with url: /session/25cd3bd76a9e4fca0553621ceac8ffa0/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271A9109BA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-01 01:09:56,182 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271A9083770>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25cd3bd76a9e4fca0553621ceac8ffa0
+2025-09-01 01:10:00,244 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271A912D480>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25cd3bd76a9e4fca0553621ceac8ffa0
+2025-09-01 01:10:04,323 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271A912D8C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25cd3bd76a9e4fca0553621ceac8ffa0
+2025-09-01 01:11:36,084 [INFO] Scraper started.
+2025-09-01 01:12:48,075 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 01:12:48,075 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 01:14:01,920 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 01:14:01,920 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 01:15:31,319 [INFO] Scraper started.
+2025-09-01 01:16:43,417 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 01:16:43,418 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 01:18:55,901 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 01:18:55,901 [INFO] Waiting 1.0 minutes until next scrape...
