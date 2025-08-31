@@ -1,51 +1,98 @@
-import math
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
+from selenium.common.exceptions import (
+    WebDriverException,
+    NoSuchElementException,
+    StaleElementReferenceException,
+)
+import math, time, csv, yaml, sys, os
 
-driver = webdriver.Chrome()
-driver.get("https://defillama.com/chains")
-time.sleep(5) 
+def run_scraping():
+    try:
+        driver = webdriver.Chrome()
+        driver.get("https://defillama.com/chains")
+    except WebDriverException as e:
+        print(f"Browser error: {e}")
+        sys.exit(1)
 
-def run_scrolling():
-    document_height = driver.execute_script("return document.body.scrollHeight")
+    try:
+        document_height = driver.execute_script("return document.body.scrollHeight")
+    except Exception as e:
+        print(f"Could not get page height: {e}")
+        driver.quit()
+        sys.exit(1)
+
     scroll_limit = 500
     times_to_scroll = math.ceil(document_height / scroll_limit)
+    biden_time = 0.2
 
-    for i in range(times_to_scroll):
-        # Scroll down by 500 pixels
-        driver.execute_script("window.scrollBy(0, "+str(scroll_limit)+");")
-        # Wait a bit for content to load
-        time.sleep(0.2)
+    data = []
+    seen_ids = set()
 
-        # Get parent grid rows
-        grid_rows = driver.find_elements(By.CSS_SELECTOR, "div[style*='grid-template-columns']")
-
-        for row in grid_rows:
+    try:
+        for i in range(times_to_scroll):
             try:
-                # Columns of the row
-                cells = row.find_elements(By.CSS_SELECTOR, "div[data-chainpage='true']")
+                driver.execute_script(f"window.scrollBy(0, {scroll_limit});")
+            except WebDriverException as e:
+                print(f"Scroll failed: {e}")
+                break
 
-                first_col = cells[0]
-
-                # Row number
-                number = first_col.find_element(By.CSS_SELECTOR, "span.shrink-0").text.strip()
-
-                # Name (link)
-                name = first_col.find_element(By.CSS_SELECTOR, "a").text.strip()
-
-                # Protocols and TVL
-                protocols = cells[1].text.strip()
-                tvl = cells[2].text.strip()
-
-                print(f"{number} | {name} | {protocols} | {tvl}")
-
-            except Exception as e:
+            try:
+                main_table = driver.find_elements(By.CSS_SELECTOR, "#table-wrapper > div:nth-child(3)")
+            except NoSuchElementException:
+                print("Table not found, continuing...")
                 continue
-    print("✅ Finished slow scroll to end of page")
+
+            for iterate in main_table:
+                try:
+                    grid_rows = iterate.find_elements(By.CSS_SELECTOR, "div[style*='grid-template-columns']")
+                except StaleElementReferenceException:
+                    print("Table changed during scraping, skipping iteration...")
+                    continue
+
+                for row in grid_rows:
+                    try:
+                        cells = row.find_elements(By.CSS_SELECTOR, "div[data-chainpage='true']")
+                        if len(cells) < 3:
+                            continue # skip incomplete rows
+
+                        first_col = cells[0]
+                        number = first_col.find_element(By.CSS_SELECTOR, "span.shrink-0").text.strip()
+                        name = first_col.find_element(By.CSS_SELECTOR, "a").text.strip()
+
+                        if number in seen_ids:
+                            continue
+
+                        protocols = cells[1].text.strip()
+                        tvl = cells[2].text.strip()
+
+                        data.append([name, protocols, tvl])
+                        seen_ids.add(number)
+
+                    except Exception as e:
+                        print(f"Error parsing row: {e}")
+                        continue
+
+            time.sleep(biden_time)
+
+    except Exception as e:
+        print(f"Unexpected error while scraping: {e}")
+    finally:
+        driver.quit()
+
+    if not data:
+        print("No data scraped. Exiting...")
+        return
+
+    try:
+        with open("chains_data.csv", "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Name", "Protocols", "TVL"])
+            writer.writerows(data)
+        print(f"✅ Scraped {len(data)} rows. Data saved to chains_data.csv")
+    except OSError as e:
+        print(f"❌ File write error: {e}")
 
 
-run_scrolling()
-
-driver.quit()
+if __name__ == "__main__":
+    run_scraping()

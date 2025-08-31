@@ -1,67 +1,111 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import math, time, csv, yaml
+from selenium.common.exceptions import (
+    WebDriverException,
+    NoSuchElementException
+)
+import math, time, csv, yaml, sys, logging
+from logging.handlers import RotatingFileHandler
 
-driver = webdriver.Chrome()
-driver.get("https://defillama.com/chains")
+# ----------------------------
+# Logging Configuration
+# ----------------------------
+log_formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
+
+# Log to file (rotating so it doesn’t grow forever)
+file_handler = RotatingFileHandler(
+    "scraper.log", maxBytes=5*1024*1024, backupCount=3, encoding="utf-8"
+)
+file_handler.setFormatter(log_formatter)
+file_handler.setLevel(logging.INFO)
+# Main logger setup (NO console handler)
+logging.basicConfig(level=logging.DEBUG, handlers=[file_handler])
+logger = logging.getLogger("Scraper")
+# ----------------------------
+
+try:
+    driver = webdriver.Chrome()
+    driver.get("https://defillama.com/chains")
+except WebDriverException as e:
+    logger.error(f"Browser error: {e}")
+    sys.exit(1)
 
 def run_scraping():
-    document_height = driver.execute_script("return document.body.scrollHeight")
+
+    try:
+        document_height = driver.execute_script("return document.body.scrollHeight")
+    except Exception as e:
+        logger.error(f"Could not get page height: {e}")
+        driver.quit()
+        sys.exit(1)
+
     scroll_limit = 500
     times_to_scroll = math.ceil(document_height / scroll_limit)
-    biden_time = 0.2
+    biden_time = 0.2 # time_to_sleep
 
     # keeping data
     data = []
     seen_ids = set()  # keep track of IDs to avoid duplicates
+    try:
+        for i in range(times_to_scroll):
+            # Scroll down by 500 pixels
 
-    for i in range(times_to_scroll):
-        # Scroll down by 500 pixels
-        driver.execute_script("window.scrollBy(0, "+str(scroll_limit)+");")
-        # Wait a bit for content to load
-        whole_table = driver.find_elements(By.CSS_SELECTOR, "#table-wrapper > div:nth-child(3)")
-
-        for iterate in whole_table:
             try:
-                grid_rows = iterate.find_elements(By.CSS_SELECTOR, "div[style*='grid-template-columns']")
+                driver.execute_script(f"window.scrollBy(0, {scroll_limit});")
+            except WebDriverException as e:
+                logger.error(f"Scroll failed: {e}")
+                break
 
-                for row in grid_rows:
-                    try:
-                        cells = row.find_elements(By.CSS_SELECTOR, "div[data-chainpage='true']")
-                        if len(cells) < 3:
-                            continue  # skip incomplete rows
-
-                        # First column: number + name
-                        first_col = cells[0]
-
-                        number = first_col.find_element(By.CSS_SELECTOR, "span.shrink-0").text.strip()
-                        name = first_col.find_element(By.CSS_SELECTOR, "a").text.strip()
-
-                        # Skip if this ID is already processed
-                        if number in seen_ids:
-                            continue
-
-                        protocols = cells[1].text.strip()
-                        tvl = cells[2].text.strip()
-
-                        data.append([name, protocols, tvl])
-                        seen_ids.add(number)
-
-                    except Exception as e:
-                        continue
-                time.sleep(biden_time)
-            except Exception as e:
+            # Wait a bit for content to load
+            try:
+                whole_table = driver.find_elements(By.CSS_SELECTOR, "#table-wrapper > div:nth-child(3)")
+            except NoSuchElementException:
+                logger.error("Table not found, continuing...")
                 continue
 
-    print("✅ Finished slow scroll to end of page")
+            for iterate in whole_table:
+                try:
+                    grid_rows = iterate.find_elements(By.CSS_SELECTOR, "div[style*='grid-template-columns']")
+
+                    for row in grid_rows:
+                        try:
+                            cells = row.find_elements(By.CSS_SELECTOR, "div[data-chainpage='true']")
+                            if len(cells) < 3:
+                                continue  # skip incomplete rows
+
+                            # First column: number + name
+                            first_col = cells[0]
+
+                            number = first_col.find_element(By.CSS_SELECTOR, "span.shrink-0").text.strip()
+                            name = first_col.find_element(By.CSS_SELECTOR, "a").text.strip()
+
+                            # Skip if this ID is already processed
+                            if number in seen_ids:
+                                continue
+
+                            protocols = cells[1].text.strip()
+                            tvl = cells[2].text.strip()
+
+                            data.append([name, protocols, tvl])
+                            seen_ids.add(number)
+                        except Exception as e:
+                            continue
+                    time.sleep(biden_time)
+                except Exception as e:
+                    continue
+
+
+
+    except Exception as e:
+        logger.error(f"Unexpected error while scraping: {e}")
+    finally:
+        driver.quit()
 
     with open("chains_data.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["Name", "Protocols", "TVL"])
         writer.writerows(data)
 
-    print(f"✅ Scraped {len(data)} rows. Data saved to chains_data.csv")
+    logger.info(f"Scraped {len(data)} rows. Data saved to chains_data.csv")
 
 run_scraping()
-
-driver.quit()
