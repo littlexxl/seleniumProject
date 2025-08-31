@@ -6,7 +6,7 @@ import time
 
 driver = webdriver.Chrome()
 driver.get("https://defillama.com/chains")
-time.sleep(5)  # wait for React to render table
+time.sleep(5) 
 
 def run_scrolling():
     document_height = driver.execute_script("return document.body.scrollHeight")
