@@ -63,3 +63,788 @@ Stacktrace:
 2025-09-01 01:16:43,418 [INFO] Waiting 1.0 minutes until next scrape...
 2025-09-01 01:18:55,901 [INFO] Scraped 413 rows. Data saved to chains_data.csv
 2025-09-01 01:18:55,901 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:33:10,901 [INFO] Scraper started.
+2025-09-01 02:34:21,790 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 02:34:21,790 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:36:42,520 [INFO] Scraper started.
+2025-09-01 02:36:54,469 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 02:36:54,470 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:37:44,121 [INFO] Scraper started.
+2025-09-01 02:37:55,834 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 02:37:55,834 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:41:43,321 [INFO] Scraper started.
+2025-09-01 02:41:49,997 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 02:41:49,997 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:42:56,778 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 02:42:56,779 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:44:02,248 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 02:44:02,248 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:44:23,504 [INFO] Scraper started.
+2025-09-01 02:44:30,601 [ERROR] Browser error: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 02:45:02,519 [INFO] Scraper started.
+2025-09-01 02:45:09,343 [ERROR] Browser error: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 02:47:38,719 [INFO] Scraper started.
+2025-09-01 02:47:44,785 [ERROR] Browser error: Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 02:49:43,936 [INFO] Scraper started.
+2025-09-01 02:49:45,736 [ERROR] Browser error: Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 02:52:06,267 [INFO] Scraper started.
+2025-09-01 02:52:08,533 [ERROR] Browser error: Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 02:52:41,959 [INFO] Scraper started.
+2025-09-01 02:52:43,797 [ERROR] Browser error: Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 02:57:25,180 [INFO] Scraper started.
+2025-09-01 02:57:31,545 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 02:57:31,545 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 02:58:35,343 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 02:58:35,343 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:03:03,344 [INFO] Scraper started.
+2025-09-01 03:03:07,345 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:03:07,345 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:03:23,297 [INFO] Scraper started.
+2025-09-01 03:05:17,117 [INFO] Scraper started.
+2025-09-01 03:05:21,330 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:05:21,330 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:06:25,415 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:06:25,415 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:10:17,587 [INFO] Scraper started.
+2025-09-01 03:10:29,374 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:10:29,374 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:11:32,666 [INFO] Scraper started.
+2025-09-01 03:11:34,469 [ERROR] Browser error: Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:11:44,025 [INFO] Scraper started.
+2025-09-01 03:11:45,257 [ERROR] Browser error: Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:11:56,445 [INFO] Scraper started.
+2025-09-01 03:11:57,772 [ERROR] Browser error: Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:12:50,280 [INFO] Scraper started.
+2025-09-01 03:12:53,951 [ERROR] Browser error: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:13:17,863 [INFO] Scraper started.
+2025-09-01 03:13:20,627 [ERROR] Browser error: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:15:08,149 [INFO] Scraper started.
+2025-09-01 03:15:10,720 [ERROR] Browser error: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:24:35,300 [INFO] Scraper started.
+2025-09-01 03:24:39,572 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:24:39,572 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:40:10,544 [INFO] Scraper started.
+2025-09-01 03:40:10,545 [INFO] Using default request storage
+2025-09-01 03:40:10,564 [INFO] Created proxy listening on 127.0.0.1:60195
+2025-09-01 03:40:12,110 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:SUVuUxbT2LRRWf_FY1omZzf6Z7C-IJC5P2i6ohYYQ04&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:40:12,293 [INFO] Capturing response: http://clients2.google.com/time/1/current?cup2key=9:SUVuUxbT2LRRWf_FY1omZzf6Z7C-IJC5P2i6ohYYQ04&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 200 OK
+2025-09-01 03:40:12,685 [INFO] Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard
+2025-09-01 03:40:12,791 [INFO] Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard 200 
+2025-09-01 03:40:13,465 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:40:13,966 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:40:14,089 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:40:14,512 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:40:14,666 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780b711c9c20d19
+2025-09-01 03:40:15,341 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780b711c9c20d19 200 
+2025-09-01 03:40:15,511 [INFO] Capturing request: https://defillama.com/favicon.ico
+2025-09-01 03:40:15,550 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/2040348222:1756683427:sA2o4Ia80DRs2JjhKmMJITWZMFtJxekUZajH8lrsF5E/9780b711c9c20d19/kVxJx_A6cm2DepGVPQmxiqXsu1qHK147JABlTObIsVw-1756687214-1.2.1.1-zYz_XKwG_kiMlKGdgQrVfoLd55qv.9NlCELkiXfQqQxdRXbFKprraJXaP35WdHdI
+2025-09-01 03:40:15,980 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/2040348222:1756683427:sA2o4Ia80DRs2JjhKmMJITWZMFtJxekUZajH8lrsF5E/9780b711c9c20d19/kVxJx_A6cm2DepGVPQmxiqXsu1qHK147JABlTObIsVw-1756687214-1.2.1.1-zYz_XKwG_kiMlKGdgQrVfoLd55qv.9NlCELkiXfQqQxdRXbFKprraJXaP35WdHdI 200 
+2025-09-01 03:40:16,057 [INFO] Capturing request: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit
+2025-09-01 03:40:16,414 [INFO] Capturing response: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit 200 
+2025-09-01 03:40:16,838 [INFO] Capturing response: https://defillama.com/favicon.ico 200 
+2025-09-01 03:40:17,376 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/rrbe3/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/
+2025-09-01 03:40:17,618 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/rrbe3/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/ 200 
+2025-09-01 03:40:17,768 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1
+2025-09-01 03:40:17,771 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780b7260fbcd91f&lang=auto
+2025-09-01 03:40:18,008 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1 200 
+2025-09-01 03:40:18,378 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780b7260fbcd91f&lang=auto 200 
+2025-09-01 03:40:20,842 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:40:20,842 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:41:16,943 [INFO] Scraper started.
+2025-09-01 03:41:16,943 [INFO] Using default request storage
+2025-09-01 03:41:16,965 [INFO] Created proxy listening on 127.0.0.1:60233
+2025-09-01 03:41:18,085 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:zpsZtoLEzxHTuphkN0JcCnniAeh7Y5QE6Klk8xVRZqk&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:41:18,377 [INFO] Capturing response: http://clients2.google.com/time/1/current?cup2key=9:zpsZtoLEzxHTuphkN0JcCnniAeh7Y5QE6Klk8xVRZqk&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 200 OK
+2025-09-01 03:41:18,667 [INFO] Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard
+2025-09-01 03:41:18,779 [INFO] Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard 200 
+2025-09-01 03:41:19,155 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:41:19,383 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:41:19,510 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:41:19,704 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:41:19,944 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780b8aa2bd13f7f
+2025-09-01 03:41:20,371 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780b8aa2bd13f7f 200 
+2025-09-01 03:41:20,537 [INFO] Capturing request: https://defillama.com/favicon.ico
+2025-09-01 03:41:20,554 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/1021464228:1756683373:yJOjEygZa84WgiQTOvUZZIugOELR1tIUF24LEn7UFpA/9780b8aa2bd13f7f/BQvThLRKsGB8N6tOCo85FN8_RoRdYggVTMB94asYc8E-1756687279-1.2.1.1-4jHsUQjdJFUUDjjaSP0GN2r.yPbtUqZHl69yqKx8iZn5t2kfg51CGW.5FRUImy0o
+2025-09-01 03:41:20,745 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/1021464228:1756683373:yJOjEygZa84WgiQTOvUZZIugOELR1tIUF24LEn7UFpA/9780b8aa2bd13f7f/BQvThLRKsGB8N6tOCo85FN8_RoRdYggVTMB94asYc8E-1756687279-1.2.1.1-4jHsUQjdJFUUDjjaSP0GN2r.yPbtUqZHl69yqKx8iZn5t2kfg51CGW.5FRUImy0o 200 
+2025-09-01 03:41:21,247 [INFO] Capturing request: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit
+2025-09-01 03:41:21,699 [INFO] Capturing response: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit 200 
+2025-09-01 03:41:21,773 [INFO] Capturing response: https://defillama.com/favicon.ico 200 
+2025-09-01 03:41:22,371 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/6kqif/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/
+2025-09-01 03:41:22,565 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/6kqif/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/ 200 
+2025-09-01 03:41:22,712 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1
+2025-09-01 03:41:22,714 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780b8bc0c9a3a1c&lang=auto
+2025-09-01 03:41:22,895 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1 200 
+2025-09-01 03:41:23,267 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780b8bc0c9a3a1c&lang=auto 200 
+2025-09-01 03:42:08,335 [INFO] Scraper started.
+2025-09-01 03:42:08,335 [INFO] Using default request storage
+2025-09-01 03:42:08,348 [INFO] Created proxy listening on 127.0.0.1:60300
+2025-09-01 03:42:09,425 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:Ldisk47vT1q4iPtM5FT5yuW__zn2H0HERiWmRy2O-GE&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:42:10,068 [INFO] Capturing response: http://clients2.google.com/time/1/current?cup2key=9:Ldisk47vT1q4iPtM5FT5yuW__zn2H0HERiWmRy2O-GE&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 200 OK
+2025-09-01 03:42:12,206 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:42:12,364 [INFO] Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard
+2025-09-01 03:42:13,317 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:42:13,434 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:42:13,891 [INFO] Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard 200 
+2025-09-01 03:42:14,086 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:42:22,200 [INFO] Capturing request: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE
+2025-09-01 03:42:22,681 [INFO] Capturing response: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE 200 
+2025-09-01 03:42:34,373 [INFO] Capturing request: https://www.google.com/async/ddljson?async=ntp:2
+2025-09-01 03:42:34,376 [INFO] Capturing request: https://www.google.com/async/newtab_ogb?hl=uk&async=fixed:0
+2025-09-01 03:42:34,389 [INFO] Capturing request: https://www.google.com/async/newtab_promos
+2025-09-01 03:42:34,832 [INFO] Capturing response: https://www.google.com/async/ddljson?async=ntp:2 200 
+2025-09-01 03:42:35,120 [INFO] Capturing response: https://www.google.com/async/newtab_ogb?hl=uk&async=fixed:0 200 
+2025-09-01 03:42:36,150 [INFO] Capturing response: https://www.google.com/async/newtab_promos 200 
+2025-09-01 03:42:36,264 [INFO] Capturing request: https://www.gstatic.com/og/_/ss/k=og.qtm.1g5Ujf7Z0Ho.L.W.O/m=qmd,qcwid/excm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhawgm3,qhba,qhbr,qhbrgm3,qhch,qhchgm3,qhga,qhid,qhidgm3,qhin,qhlo,qhlogm3,qhmn,qhpc,qhsf,qhsfgm3,qhtt/d=1/ed=1/ct=zgms/rs=AA2YrTvsVPw7vJUW446KreqmAvmIuZqijA
+2025-09-01 03:42:36,268 [INFO] Capturing request: https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg
+2025-09-01 03:42:36,281 [INFO] Capturing request: https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hsxAeDZfu4U.2019.O/rt=j/m=q_dnp,qmd,qcwid,qapid,qald,qads,q_dg/exm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhawgm3,qhba,qhbr,qhbrgm3,qhch,qhchgm3,qhga,qhid,qhidgm3,qhin,qhlo,qhlogm3,qhmn,qhpc,qhsf,qhsfgm3,qhtt/d=1/ed=1/rs=AA2YrTtqQBzHPMqVb9ymSBkWHEaw7gav3Q
+2025-09-01 03:42:36,789 [INFO] Capturing request: https://www.google.com/search?q=dfsdfs&oq=dfsdfs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDEwNjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+2025-09-01 03:42:36,835 [INFO] Capturing response: https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg 200 
+2025-09-01 03:42:37,412 [INFO] Capturing response: https://www.google.com/search?q=dfsdfs&oq=dfsdfs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDEwNjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8 302 
+2025-09-01 03:42:37,428 [INFO] Capturing response: https://www.gstatic.com/og/_/ss/k=og.qtm.1g5Ujf7Z0Ho.L.W.O/m=qmd,qcwid/excm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhawgm3,qhba,qhbr,qhbrgm3,qhch,qhchgm3,qhga,qhid,qhidgm3,qhin,qhlo,qhlogm3,qhmn,qhpc,qhsf,qhsfgm3,qhtt/d=1/ed=1/ct=zgms/rs=AA2YrTvsVPw7vJUW446KreqmAvmIuZqijA 200 
+2025-09-01 03:42:37,535 [INFO] Capturing request: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Ddfsdfs%26oq%3Ddfsdfs%26gs_lcrp%3DEgZjaHJvbWUyBggAEEUYOdIBCDEwNjhqMGo3qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8&q=EgSKzP0HGP3X08UGIjBrMmVkyb5w8BlevX0rd4dHqO1aMHcGWRKdPy2cDwpTCftTmV1oOrixJw14EkTo0ZQyAnJSWgFD
+2025-09-01 03:42:37,938 [INFO] Capturing response: https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hsxAeDZfu4U.2019.O/rt=j/m=q_dnp,qmd,qcwid,qapid,qald,qads,q_dg/exm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhawgm3,qhba,qhbr,qhbrgm3,qhch,qhchgm3,qhga,qhid,qhidgm3,qhin,qhlo,qhlogm3,qhmn,qhpc,qhsf,qhsfgm3,qhtt/d=1/ed=1/rs=AA2YrTtqQBzHPMqVb9ymSBkWHEaw7gav3Q 200 
+2025-09-01 03:42:38,130 [INFO] Capturing request: https://android.clients.google.com/checkin
+2025-09-01 03:42:38,404 [INFO] Capturing response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Ddfsdfs%26oq%3Ddfsdfs%26gs_lcrp%3DEgZjaHJvbWUyBggAEEUYOdIBCDEwNjhqMGo3qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8&q=EgSKzP0HGP3X08UGIjBrMmVkyb5w8BlevX0rd4dHqO1aMHcGWRKdPy2cDwpTCftTmV1oOrixJw14EkTo0ZQyAnJSWgFD 429 
+2025-09-01 03:42:38,525 [INFO] Capturing request: https://www.google.com/recaptcha/enterprise.js
+2025-09-01 03:42:38,926 [INFO] Capturing response: https://www.google.com/recaptcha/enterprise.js 200 
+2025-09-01 03:42:38,987 [INFO] Capturing response: https://android.clients.google.com/checkin 200 
+2025-09-01 03:42:39,015 [INFO] Capturing request: https://android.clients.google.com/c2dm/register3
+2025-09-01 03:42:39,022 [INFO] Capturing request: https://android.clients.google.com/c2dm/register3
+2025-09-01 03:42:39,689 [INFO] Capturing request: https://csp.withgoogle.com/csp/httpsserver2/sorry
+2025-09-01 03:42:39,691 [INFO] Capturing request: https://csp.withgoogle.com/csp/httpsserver2/sorry
+2025-09-01 03:42:39,694 [INFO] Capturing request: https://csp.withgoogle.com/csp/httpsserver2/sorry
+2025-09-01 03:42:39,717 [INFO] Capturing request: https://play.google.com/log?hasfast=true&authuser=0&format=json
+2025-09-01 03:42:39,781 [INFO] Capturing response: https://android.clients.google.com/c2dm/register3 200 
+2025-09-01 03:42:39,884 [INFO] Capturing response: https://android.clients.google.com/c2dm/register3 200 
+2025-09-01 03:42:40,005 [INFO] Capturing request: https://www.gstatic.com/recaptcha/releases/2sJvksnKlEApLvJt2btz_q7n/recaptcha__uk.js
+2025-09-01 03:42:40,057 [INFO] Capturing response: https://csp.withgoogle.com/csp/httpsserver2/sorry 204 
+2025-09-01 03:42:40,260 [INFO] Capturing response: https://play.google.com/log?hasfast=true&authuser=0&format=json 200 
+2025-09-01 03:42:40,267 [INFO] Capturing response: https://csp.withgoogle.com/csp/httpsserver2/sorry 204 
+2025-09-01 03:42:40,270 [INFO] Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION
+2025-09-01 03:42:40,272 [INFO] Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=1745312779&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS
+2025-09-01 03:42:40,587 [INFO] Capturing response: https://csp.withgoogle.com/csp/httpsserver2/sorry 204 
+2025-09-01 03:42:41,187 [INFO] Capturing response: https://optimizationguide-pa.googleapis.com/downloads?name=1745312779&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS 200 
+2025-09-01 03:42:41,561 [INFO] Capturing request: https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2
+2025-09-01 03:42:43,872 [INFO] 127.0.0.1:60356: ProtocolException("Error in HTTP connection: Http2ZombieException('Connection or stream already dead: 1756687363.7586281, False')")
+2025-09-01 03:42:44,442 [ERROR] 127.0.0.1:60344: Traceback (most recent call last):
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\net\tcp.py", line 92, in write
+    return self.o.sendall(v)
+           ~~~~~~~~~~~~~~^^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\OpenSSL\SSL.py", line 2264, in sendall
+    self._raise_ssl_error(self._ssl, result)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\OpenSSL\SSL.py", line 2014, in _raise_ssl_error
+    raise SysCallError(errno, errorcode.get(errno))
+OpenSSL.SSL.SysCallError: (10054, 'WSAECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\server.py", line 113, in handle
+    root_layer()
+    ~~~~~~~~~~^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\modes\http_proxy.py", line 23, in __call__
+    layer()
+    ~~~~~^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\tls.py", line 285, in __call__
+    layer()
+    ~~~~~^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\http1.py", line 100, in __call__
+    layer()
+    ~~~~~^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\http.py", line 206, in __call__
+    if not self._process_flow(flow):
+           ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\http.py", line 288, in _process_flow
+    return self.handle_upstream_connect(f)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\http.py", line 254, in handle_upstream_connect
+    return layer()
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\http.py", line 103, in __call__
+    layer()
+    ~~~~~^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\tls.py", line 285, in __call__
+    layer()
+    ~~~~~^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\http2.py", line 346, in __call__
+    self._complete_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\server\protocol\http2.py", line 132, in _complete_handshake
+    self.client_conn.send(self.connections[self.client_conn].data_to_send())
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\connections.py", line 107, in send
+    self.wfile.write(message)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\pp\seleniumProject\.venv\Lib\site-packages\seleniumwire\thirdparty\mitmproxy\net\tcp.py", line 98, in write
+    raise exceptions.TcpDisconnect(str(e))
+seleniumwire.thirdparty.mitmproxy.exceptions.TcpDisconnect: (10054, 'WSAECONNRESET')
+
+2025-09-01 03:42:48,021 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:42:48,021 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:43:37,100 [INFO] Scraper started.
+2025-09-01 03:43:37,100 [INFO] Using default request storage
+2025-09-01 03:43:37,122 [INFO] Created proxy listening on 127.0.0.1:60398
+2025-09-01 03:43:38,251 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:qe88EneZvi6_nvwrIDq12UX9jV409DVEfWlkc1sq7oc&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:43:46,608 [ERROR] Browser error: Message: unknown error: net::ERR_TUNNEL_CONNECTION_FAILED
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2cc8ea0]
+	(No symbol) [0x0x7ff6e2cb9cb9]
+	(No symbol) [0x0x7ff6e2cbba71]
+	(No symbol) [0x0x7ff6e2cb9fd6]
+	(No symbol) [0x0x7ff6e2cb9a36]
+	(No symbol) [0x0x7ff6e2cb96fa]
+	(No symbol) [0x0x7ff6e2cb72cb]
+	(No symbol) [0x0x7ff6e2cb7b4c]
+	(No symbol) [0x0x7ff6e2cd00aa]
+	(No symbol) [0x0x7ff6e2d740ee]
+	(No symbol) [0x0x7ff6e2d4b19a]
+	(No symbol) [0x0x7ff6e2d73344]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:44:01,942 [INFO] Scraper started.
+2025-09-01 03:44:01,942 [INFO] Using default request storage
+2025-09-01 03:44:01,957 [INFO] Created proxy listening on 127.0.0.1:60435
+2025-09-01 03:44:03,124 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:10Pn0Dg8GrPLaADI33L2hj-j13mhKTuBvT5M04J_kGI&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:44:09,162 [ERROR] Could not get page height: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2ca4601]
+	(No symbol) [0x0x7ff6e2d5257e]
+	(No symbol) [0x0x7ff6e2d72c72]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:44:33,668 [INFO] Scraper started.
+2025-09-01 03:44:33,668 [INFO] Using default request storage
+2025-09-01 03:44:33,684 [INFO] Created proxy listening on 127.0.0.1:60472
+2025-09-01 03:44:34,840 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:3v9rgAE4AgRnWwb7uevrpzgD3iNewUjXKFVQzhibjb4&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:44:45,438 [ERROR] Could not get page height: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e2f23d85+79397]
+	GetHandleVerifier [0x0x7ff6e2f23de0+79488]
+	(No symbol) [0x0x7ff6e2ccc0fa]
+	(No symbol) [0x0x7ff6e2ca4601]
+	(No symbol) [0x0x7ff6e2d5257e]
+	(No symbol) [0x0x7ff6e2d72c72]
+	(No symbol) [0x0x7ff6e2d4af73]
+	(No symbol) [0x0x7ff6e2d141b1]
+	(No symbol) [0x0x7ff6e2d14f43]
+	GetHandleVerifier [0x0x7ff6e31ee1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e31e831d+2980797]
+	GetHandleVerifier [0x0x7ff6e3207e0d+3110573]
+	GetHandleVerifier [0x0x7ff6e2f3d6de+184190]
+	GetHandleVerifier [0x0x7ff6e2f4516f+215567]
+	GetHandleVerifier [0x0x7ff6e2f2c974+115220]
+	GetHandleVerifier [0x0x7ff6e2f2cb29+115657]
+	GetHandleVerifier [0x0x7ff6e2f13268+11016]
+	BaseThreadInitThunk [0x0x7ff90e697374+20]
+	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
+
+2025-09-01 03:45:22,955 [INFO] Scraper started.
+2025-09-01 03:45:22,955 [INFO] Using default request storage
+2025-09-01 03:45:22,975 [INFO] Created proxy listening on 127.0.0.1:60516
+2025-09-01 03:45:24,196 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:UH4ESodtIOcbKBatZ5uyDdy4A06BgdEJyTMw2YjCBxI&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:45:24,828 [INFO] Capturing response: http://clients2.google.com/time/1/current?cup2key=9:UH4ESodtIOcbKBatZ5uyDdy4A06BgdEJyTMw2YjCBxI&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 200 OK
+2025-09-01 03:45:25,209 [INFO] Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard
+2025-09-01 03:45:25,434 [INFO] Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard 200 
+2025-09-01 03:45:25,967 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:45:26,328 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:45:26,452 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:45:26,736 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:45:26,902 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780beb1cd7f1ab5
+2025-09-01 03:45:27,468 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780beb1cd7f1ab5 200 
+2025-09-01 03:45:27,615 [INFO] Capturing request: https://defillama.com/favicon.ico
+2025-09-01 03:45:27,650 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/2072036166:1756687010:JqKqydvWlSCm519HYiWaP7p9jycNfik5bcGhpkpIPjE/9780beb1cd7f1ab5/BMAYZ.pS2uDxn3Af1e.JBUfFH7eIaCGXbUft04BEQrQ-1756687526-1.2.1.1-dRE6vgjcXtSCd4pdsXOnG0acwZ2HLhDLxN3gFIZ8YPIykkT4xOYkgPrEebvDEyVU
+2025-09-01 03:45:27,899 [INFO] Capturing response: https://defillama.com/favicon.ico 200 
+2025-09-01 03:45:27,914 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/2072036166:1756687010:JqKqydvWlSCm519HYiWaP7p9jycNfik5bcGhpkpIPjE/9780beb1cd7f1ab5/BMAYZ.pS2uDxn3Af1e.JBUfFH7eIaCGXbUft04BEQrQ-1756687526-1.2.1.1-dRE6vgjcXtSCd4pdsXOnG0acwZ2HLhDLxN3gFIZ8YPIykkT4xOYkgPrEebvDEyVU 200 
+2025-09-01 03:45:28,299 [INFO] Capturing request: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit
+2025-09-01 03:45:28,716 [INFO] Capturing response: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit 200 
+2025-09-01 03:45:29,962 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/butao/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/
+2025-09-01 03:45:30,500 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/butao/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/ 200 
+2025-09-01 03:45:30,647 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1
+2025-09-01 03:45:30,650 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780bec8b92ea421&lang=auto
+2025-09-01 03:45:31,537 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1 200 
+2025-09-01 03:45:31,543 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780bec8b92ea421&lang=auto 200 
+2025-09-01 03:45:33,827 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:45:33,828 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:46:33,828 [INFO] Using default request storage
+2025-09-01 03:46:33,855 [INFO] Created proxy listening on 127.0.0.1:60572
+2025-09-01 03:46:34,988 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:18x7bnr0CRBeLSwalapqGhGGqFlY_IaAJrUdWZJCLfA&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:46:35,075 [INFO] Capturing response: http://clients2.google.com/time/1/current?cup2key=9:18x7bnr0CRBeLSwalapqGhGGqFlY_IaAJrUdWZJCLfA&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 200 OK
+2025-09-01 03:46:35,279 [INFO] Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard
+2025-09-01 03:46:35,361 [INFO] Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard 200 
+2025-09-01 03:46:35,581 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:46:35,722 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:46:35,862 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:46:35,898 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:46:36,064 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780c062f9782deb
+2025-09-01 03:46:36,223 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780c062f9782deb 200 
+2025-09-01 03:46:36,379 [INFO] Capturing request: https://defillama.com/favicon.ico
+2025-09-01 03:46:36,406 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/1184984789:1756687097:2Z6orhLrqvBFk3bh1JqhRQtPCcqqbaamRXvJ5LR5JDg/9780c062f9782deb/MWwg_8Q09ifgXVgn8NI0yx8f3mZOtP5RPQJN5dVMa0o-1756687596-1.2.1.1-cn4O4.Xdgr.YjuBwx2d4itO5gEBp_tv1R.8t53mDCwBTYAN7Wf2ry44HkpouJYrt
+2025-09-01 03:46:36,424 [INFO] Capturing response: https://defillama.com/favicon.ico 200 
+2025-09-01 03:46:36,435 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/1184984789:1756687097:2Z6orhLrqvBFk3bh1JqhRQtPCcqqbaamRXvJ5LR5JDg/9780c062f9782deb/MWwg_8Q09ifgXVgn8NI0yx8f3mZOtP5RPQJN5dVMa0o-1756687596-1.2.1.1-cn4O4.Xdgr.YjuBwx2d4itO5gEBp_tv1R.8t53mDCwBTYAN7Wf2ry44HkpouJYrt 200 
+2025-09-01 03:46:36,499 [INFO] Capturing request: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit
+2025-09-01 03:46:36,642 [INFO] Capturing response: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit 200 
+2025-09-01 03:46:36,858 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/ldzq4/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/
+2025-09-01 03:46:36,996 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/ldzq4/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/ 200 
+2025-09-01 03:46:37,135 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1
+2025-09-01 03:46:37,137 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780c0692e962deb&lang=auto
+2025-09-01 03:46:37,185 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780c0692e962deb&lang=auto 200 
+2025-09-01 03:46:39,444 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:46:39,444 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 03:47:39,445 [INFO] Using default request storage
+2025-09-01 03:47:39,460 [INFO] Created proxy listening on 127.0.0.1:60639
+2025-09-01 03:47:40,689 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:6mrrYDk1EkIKr_1tdp48kIKw2hXkdoQKHE4b3u6ofCA&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 03:47:40,794 [INFO] Capturing response: http://clients2.google.com/time/1/current?cup2key=9:6mrrYDk1EkIKr_1tdp48kIKw2hXkdoQKHE4b3u6ofCA&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 200 OK
+2025-09-01 03:47:40,964 [INFO] Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard
+2025-09-01 03:47:41,030 [INFO] Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard 200 
+2025-09-01 03:47:41,136 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:47:41,325 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:47:41,447 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 03:47:41,512 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 03:47:41,663 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780c1fcec122473
+2025-09-01 03:47:41,806 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9780c1fcec122473 200 
+2025-09-01 03:47:41,989 [INFO] Capturing request: https://defillama.com/favicon.ico
+2025-09-01 03:47:42,024 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/2021894338:1756687072:EhOyn-gP_a1BRVy25UzBkJgBtuLh4PGBOUE4bedZEBQ/9780c1fcec122473/PwELShJ7WUqxv6CTLFuAAli5nd9s3MyUcItyzGd4YUA-1756687661-1.2.1.1-15N8.WG7IlSf.DD1BxuScjipjrKMSYr3ppY.8tlj7tL2KRYGRGhvAiWje.WdZD85
+2025-09-01 03:47:42,038 [INFO] Capturing response: https://defillama.com/favicon.ico 200 
+2025-09-01 03:47:42,039 [INFO] Capturing request: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit
+2025-09-01 03:47:42,057 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/2021894338:1756687072:EhOyn-gP_a1BRVy25UzBkJgBtuLh4PGBOUE4bedZEBQ/9780c1fcec122473/PwELShJ7WUqxv6CTLFuAAli5nd9s3MyUcItyzGd4YUA-1756687661-1.2.1.1-15N8.WG7IlSf.DD1BxuScjipjrKMSYr3ppY.8tlj7tL2KRYGRGhvAiWje.WdZD85 200 
+2025-09-01 03:47:42,176 [INFO] Capturing response: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit 200 
+2025-09-01 03:47:42,391 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/sru6r/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/
+2025-09-01 03:47:42,420 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/sru6r/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/ 200 
+2025-09-01 03:47:42,562 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780c202cc732d37&lang=auto
+2025-09-01 03:47:42,574 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1
+2025-09-01 03:47:42,614 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1 200 
+2025-09-01 03:47:42,719 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=9780c202cc732d37&lang=auto 200 
+2025-09-01 03:47:45,008 [INFO] Scraped 0 rows. Data saved to chains_data.csv
+2025-09-01 03:47:45,008 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 04:42:05,310 [INFO] Scraper started.
+2025-09-01 04:42:05,310 [INFO] Using default request storage
+2025-09-01 04:42:05,328 [INFO] Created proxy listening on 127.0.0.1:63072
+2025-09-01 04:42:06,610 [INFO] Capturing request: http://clients2.google.com/time/1/current?cup2key=9:U1jttnGqXtmOh2yNPTkc6o4De8C0vZBlzCvCizHbyoE&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-09-01 04:42:07,144 [INFO] Capturing response: http://clients2.google.com/time/1/current?cup2key=9:U1jttnGqXtmOh2yNPTkc6o4De8C0vZBlzCvCizHbyoE&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 200 OK
+2025-09-01 04:42:07,570 [INFO] Capturing request: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard
+2025-09-01 04:42:07,662 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 04:42:07,777 [INFO] Capturing response: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&laf=b64bin&json=standard 200 
+2025-09-01 04:42:07,880 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 04:42:08,003 [INFO] Capturing request: https://defillama.com/chains
+2025-09-01 04:42:08,207 [INFO] Capturing response: https://defillama.com/chains 403 
+2025-09-01 04:42:08,361 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=978111bd3c960390
+2025-09-01 04:42:08,653 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=978111bd3c960390 200 
+2025-09-01 04:42:08,811 [INFO] Capturing request: https://defillama.com/favicon.ico
+2025-09-01 04:42:08,834 [INFO] Capturing request: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/59197689:1756687044:_LZrDY1JQuBwMoKGDLU4AuJzUSWLuEK3xJ2RhKaBokw/978111bd3c960390/JKmmzFedW8wlJ7XpY72fcoWVq644aJCWBZ3Dvb3kTO0-1756690928-1.2.1.1-7KekDgId.p643ZMxvYppBe5c2qFmcdO7IrPMUAAEQkyzn8n3v5N686piSCxBklXh
+2025-09-01 04:42:08,967 [INFO] Capturing response: https://defillama.com/favicon.ico 200 
+2025-09-01 04:42:08,974 [INFO] Capturing response: https://defillama.com/cdn-cgi/challenge-platform/h/b/flow/ov1/59197689:1756687044:_LZrDY1JQuBwMoKGDLU4AuJzUSWLuEK3xJ2RhKaBokw/978111bd3c960390/JKmmzFedW8wlJ7XpY72fcoWVq644aJCWBZ3Dvb3kTO0-1756690928-1.2.1.1-7KekDgId.p643ZMxvYppBe5c2qFmcdO7IrPMUAAEQkyzn8n3v5N686piSCxBklXh 200 
+2025-09-01 04:42:09,165 [INFO] Capturing request: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit
+2025-09-01 04:42:09,385 [INFO] Capturing response: https://challenges.cloudflare.com/turnstile/v0/b/4710d66e8fda/api.js?onload=XaVFY8&render=explicit 200 
+2025-09-01 04:42:09,992 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/npf18/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/
+2025-09-01 04:42:10,111 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv/npf18/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/ 200 
+2025-09-01 04:42:10,258 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=978111c9bf9ce3b5&lang=auto
+2025-09-01 04:42:10,260 [INFO] Capturing request: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1
+2025-09-01 04:42:10,464 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=978111c9bf9ce3b5&lang=auto 200 
+2025-09-01 04:42:10,469 [INFO] Capturing response: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1 200 

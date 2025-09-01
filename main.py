@@ -1,9 +1,11 @@
-from selenium import webdriver
+from seleniumwire import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import (
     WebDriverException,
     NoSuchElementException
 )
+
 import math, time, csv, yaml, sys, logging
 from logging.handlers import RotatingFileHandler
 
@@ -35,9 +37,29 @@ logging.basicConfig(level=logging.DEBUG, handlers=[file_handler])
 logger = logging.getLogger("Scraper")
 # ----------------------------
 
+
+# Set Chrome options
+# Replace with your working proxy
+proxy = "brd-customer-hl_efffca31-zone-freemium:ptnrsv5iq569@brd.superproxy.io:33335"
+
+# Selenium Wire options for the proxy
+seleniumwire_options = {
+    'proxy': {
+      #  'http': f'http://{proxy}',
+        'https': f'https://{proxy}',
+        'no_proxy': 'localhost,127.0.0.1'  # optional
+    }
+}
+
+# Chrome options
+chrome_options = Options()
+
 def run_scraping():
     try:
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(
+            options=chrome_options,
+            seleniumwire_options=seleniumwire_options
+        )
         driver.get("https://defillama.com/chains")
     except WebDriverException as e:
         logger.error(f"Browser error: {e}")

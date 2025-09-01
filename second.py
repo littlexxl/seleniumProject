@@ -1,98 +1,37 @@
-from selenium import webdriver
+from seleniumwire import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import (
-    WebDriverException,
-    NoSuchElementException,
-    StaleElementReferenceException,
+
+
+# formulate the proxy url with authentication
+proxy_url = f"http://brd-customer-hl_efffca31-zone-freemium:ptnrsv5iq569@brd.superproxy.io:33335"
+
+# set selenium-wire options to use the proxy
+seleniumwire_options = {
+    "proxy": {
+        "http": proxy_url,
+        "https": proxy_url
+    },
+}
+
+# set Chrome options to run in headless mode
+options = Options()
+#options.add_argument("--headless=new")
+
+# initialize the Chrome driver with service, selenium-wire options, and chrome options
+driver = webdriver.Chrome(
+    service=Service(ChromeDriverManager().install()),
+    seleniumwire_options=seleniumwire_options,
+    options=options
 )
-import math, time, csv, yaml, sys, os
 
-def run_scraping():
-    try:
-        driver = webdriver.Chrome()
-        driver.get("https://defillama.com/chains")
-    except WebDriverException as e:
-        print(f"Browser error: {e}")
-        sys.exit(1)
+# navigate to the target webpage
+driver.get("https://httpbin.io/ip")
 
-    try:
-        document_height = driver.execute_script("return document.body.scrollHeight")
-    except Exception as e:
-        print(f"Could not get page height: {e}")
-        driver.quit()
-        sys.exit(1)
+# print the body content of the target webpage
+print(driver.find_element(By.TAG_NAME, "body").text)
 
-    scroll_limit = 500
-    times_to_scroll = math.ceil(document_height / scroll_limit)
-    biden_time = 0.2
-
-    data = []
-    seen_ids = set()
-
-    try:
-        for i in range(times_to_scroll):
-            try:
-                driver.execute_script(f"window.scrollBy(0, {scroll_limit});")
-            except WebDriverException as e:
-                print(f"Scroll failed: {e}")
-                break
-
-            try:
-                main_table = driver.find_elements(By.CSS_SELECTOR, "#table-wrapper > div:nth-child(3)")
-            except NoSuchElementException:
-                print("Table not found, continuing...")
-                continue
-
-            for iterate in main_table:
-                try:
-                    grid_rows = iterate.find_elements(By.CSS_SELECTOR, "div[style*='grid-template-columns']")
-                except StaleElementReferenceException:
-                    print("Table changed during scraping, skipping iteration...")
-                    continue
-
-                for row in grid_rows:
-                    try:
-                        cells = row.find_elements(By.CSS_SELECTOR, "div[data-chainpage='true']")
-                        if len(cells) < 3:
-                            continue # skip incomplete rows
-
-                        first_col = cells[0]
-                        number = first_col.find_element(By.CSS_SELECTOR, "span.shrink-0").text.strip()
-                        name = first_col.find_element(By.CSS_SELECTOR, "a").text.strip()
-
-                        if number in seen_ids:
-                            continue
-
-                        protocols = cells[1].text.strip()
-                        tvl = cells[2].text.strip()
-
-                        data.append([name, protocols, tvl])
-                        seen_ids.add(number)
-
-                    except Exception as e:
-                        print(f"Error parsing row: {e}")
-                        continue
-
-            time.sleep(biden_time)
-
-    except Exception as e:
-        print(f"Unexpected error while scraping: {e}")
-    finally:
-        driver.quit()
-
-    if not data:
-        print("No data scraped. Exiting...")
-        return
-
-    try:
-        with open("chains_data.csv", "w", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            writer.writerow(["Name", "Protocols", "TVL"])
-            writer.writerows(data)
-        print(f"✅ Scraped {len(data)} rows. Data saved to chains_data.csv")
-    except OSError as e:
-        print(f"❌ File write error: {e}")
-
-
-if __name__ == "__main__":
-    run_scraping()
+# release the resources and close the browser
+driver.quit()
