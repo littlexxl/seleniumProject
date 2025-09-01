@@ -1,37 +1,72 @@
-from seleniumwire import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
+import time
+import zipfile
 
+from selenium import webdriver
 
-# formulate the proxy url with authentication
-proxy_url = f"http://brd-customer-hl_efffca31-zone-freemium:ptnrsv5iq569@brd.superproxy.io:33335"
+proxy_host = "brd.superproxy.io"
+proxy_port = "33335"
+proxy_user = "brd-customer-hl_efffca31-zone-freemium"
+proxy_pass = "ptnrsv5iq569"
 
-# set selenium-wire options to use the proxy
-seleniumwire_options = {
-    "proxy": {
-        "http": proxy_url,
-        "https": proxy_url
+manifest_json = """
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Chrome Proxy Authentication",
+    "permissions": [
+        "proxy",
+        "tabs",
+        "unlimitedStorage",
+        "storage",
+        "webRequest",
+        "webRequestAuthProvider"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
     },
+    "minimum_chrome_version": "108"
 }
+"""
 
-# set Chrome options to run in headless mode
-options = Options()
-#options.add_argument("--headless=new")
+background_js = f"""
+var config = {{
+    mode: "fixed_servers",
+    rules: {{
+      singleProxy: {{
+        scheme: "http",
+        host: "{proxy_host}",
+        port: parseInt({proxy_port})
+      }},
+      bypassList: ["localhost"]
+    }}
+}};
+chrome.proxy.settings.set({{value: config, scope: "regular"}}, function() {{}});
+function callbackFn(details) {{
+    return {{
+        authCredentials: {{
+            username: "{proxy_user}",
+            password: "{proxy_pass}"
+        }}
+    }};
+}}
+chrome.webRequest.onAuthRequired.addListener(
+    callbackFn,
+    {{urls: ["<all_urls>"]}},
+    ["blocking"]
+);
+"""
 
-# initialize the Chrome driver with service, selenium-wire options, and chrome options
-driver = webdriver.Chrome(
-    service=Service(ChromeDriverManager().install()),
-    seleniumwire_options=seleniumwire_options,
-    options=options
-)
+with zipfile.ZipFile("proxy_auth_plugin.zip", "w") as zp:
+    zp.writestr("manifest.json", manifest_json)
+    zp.writestr("background.js", background_js)
 
-# navigate to the target webpage
-driver.get("https://httpbin.io/ip")
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_extension("proxy_auth_plugin.zip")
 
-# print the body content of the target webpage
-print(driver.find_element(By.TAG_NAME, "body").text)
+driver = webdriver.Chrome(options=chrome_options)
+driver.get("https://httpbin.org/ip")
 
-# release the resources and close the browser
-driver.quit()
+time.sleep(30)
