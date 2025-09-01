@@ -988,3 +988,8 @@ Stacktrace:
 	RtlUserThreadStart [0x0x7ff90fcfcc91+33]
 
 2025-09-01 11:28:35,170 [INFO] Scraper started.
+2025-09-01 11:31:02,836 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 11:31:02,837 [INFO] Waiting 1.0 minutes until next scrape...
+2025-09-01 11:47:25,302 [INFO] Scraper started.
+2025-09-01 11:49:50,374 [INFO] Scraped 413 rows. Data saved to chains_data.csv
+2025-09-01 11:49:50,375 [INFO] Waiting 1.0 minutes until next scrape...
